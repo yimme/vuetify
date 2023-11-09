@@ -137,6 +137,7 @@ export const VDataIterator = genericComponent<VDataIteratorSlots>()({
       page: page.value,
       itemsPerPage: itemsPerPage.value,
       sortBy: sortBy.value,
+      itemsCount: filteredItems.value?.length,
       pageCount: pageCount.value,
       toggleSort,
       prevPage,
